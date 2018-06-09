@@ -5,7 +5,7 @@ app = Flask(__name__) # '__main__'
 
 
 
-@app.route('/') #www.mysite.com/api/
+@app.route('/test/') #www.mysite.com/api/
 def hello_method():
     return "Hello, world!"
 
